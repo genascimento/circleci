@@ -7,7 +7,6 @@
  */
 
 export default function sellProduct(product, ammout) {
-
   product.stock -= ammout
   return product
 }
