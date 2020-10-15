@@ -8,6 +8,6 @@
 
 export default function sellProduct(product, ammout) {
 
-  product.stock -= 1
+  product.stock -= ammout
   return product
 }
